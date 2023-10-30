@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "MacBook Air",
+      "price": 900,
+      "image": "assets/images/mac.jpeg",
+      "configure": {
+        "year": "2020",
+        "chip": "M2"
+      }
+    },
+    {
+      "id": 1,
+      "title": "MacBook Pro",
+      "price": 2700,
+      "image": "assets/images/mac.jpeg",
+      "configure": {
+        "year": "2022",
+        "chip": "M3"
+      }
+    },
+    {
+      "id": 1,
+      "title": "MacBook Air M2",
+      "price": 2400,
+      "image": "assets/images/mac.jpeg",
+      "configure": {
+        "year": "2021",
+        "chip": "M2"
+      }
+    }
+  ]
+}

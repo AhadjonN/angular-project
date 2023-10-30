@@ -1,15 +1,14 @@
 <mat-toolbar>
-  <div class="toolbar no-select">
-    <button mat-icon-button>
-      <mat-icon>share</mat-icon>
-    </button>
-    <span routerLink="products">Online Shop</span>
+
+  <div class="toolbar no-select" routerLink="">
+    <mat-icon style="margin-right: 3px">home</mat-icon>
+    <span>Online Shop</span>
   </div>
   <span class="example-spacer"></span>
 
   <div class="toolbar no-select">
-    <button mat-icon-button>
-      <mat-icon>favorieeete</mat-icon>
-    </button>
+    <button mat-flat-button color="accent" class="toolbar button" routerLink="">Главная</button>
+    <button mat-flat-button color="accent" class="toolbar button" routerLink="products">Товары</button>
+    <button mat-flat-button color="accent" class="toolbar button" routerLink="basket">Корзина</button>
   </div>
 </mat-toolbar>
